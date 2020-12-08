@@ -815,6 +815,9 @@ img{
     #slider .container .intro{
         margin-left: -31px;
     }
+   #slider .container .intro .mx{
+        font-size: 2.8rem;
+    }
 }
 /* end media query for small phone */
 /* ======== media query for Tablet ======== */
