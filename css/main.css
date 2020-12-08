@@ -325,7 +325,7 @@ img{
 
 /* Sevrises */
 #services{
-    background-image: linear-gradient(180deg, #e1dada, transparent);
+    background-image: linear-gradient(180deg,#380000, transparent);
 }
 #services .contianer{
     flex-direction: column;
@@ -341,7 +341,7 @@ img{
 .service_top .title{
     font-size: 3rem;
     font-weight: 300;
-    color: black;
+    color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -356,6 +356,7 @@ img{
     font-weight: 300;
     letter-spacing:.05rem ;
     /* padding: 0px 180px 0px 180px; */
+    color: white;
 }
 #services .service_bottom{
     display: flex;
@@ -504,7 +505,7 @@ img{
 
 /* ===== about me ====== */
 #about{
-    background-image: linear-gradient(180deg, #380000, transparent);
+    background-image: linear-gradient(180deg,#3a0000, transparent);
 }
 #about .about-contianer{
     flex-direction:column-reverse; /* <===== ???????? */
@@ -552,13 +553,14 @@ img{
     font-size: 1.5rem;
     font-weight: 550;
     letter-spacing: .2rem;
-    margin-bottom:10px;
+    margin-bottom:10px ;
     color: white;
 }
 #about .about-contianer .info p{
     margin-bottom: 20px;
     line-height: 25px;
     font-weight: 600;
+    color: white;
 }
 #about .about-contianer .info a{
     padding: 10px 20px;
@@ -585,11 +587,19 @@ img{
     color: #0b5596;
 }
 .my_skills .container p{
-    visibility: hidden;
+    padding-top: 5px;
+    border-top: 1px solid #5e0000;
+    /* visibility: hidden; */
     text-align: center;
     max-width: 1000px; 
     margin:50px 30px; 
     font-weight:500 ;  
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0px;
+    
 }
 .my_skills .progress {  /* ==========  add this part ============= */
     border-radius: 10px;
@@ -597,6 +607,7 @@ img{
     padding: 12px;
     padding-bottom: 30px;
     background-color:  #ffffff73;
+    border: 1px solid rgba(255, 255, 255, 0.63);
 }
 /* .my_skills .progress .tichn div{
     background-color: #F3F3F3;
@@ -668,6 +679,7 @@ img{
     flex-direction: column;
     transition: .4s ease;
     background-color: #ffffff96;
+    border: 1px solid #ff000071;
 }
 #contact .contianer .contact-items .items:hover{
    box-shadow: 0px 0px 10px 0px #0000002c;
@@ -792,12 +804,13 @@ img{
     .my_skills .container{
         flex-direction: column;
         padding: 20px 20px;
-        height: 120vh;
+        /* height: 120vh; */
         min-height: 80vh;
         width: 100%;
         display:flex;
         align-items: stretch;
         justify-content: left;
+        margin-bottom: 10px;
     }
     #slider .container .intro{
         margin-left: -31px;
@@ -857,10 +870,16 @@ img{
     .my_skills .progress .tichn{
         margin: 30px 50px;
     }
-    
+    .my_skills .container p{
+    margin-bottom: 10px;
+    }
+    .my_skills .container p{
+        padding: 0;
+        border: none;
+    }
     /* about */
     #about {
-        background-image: linear-gradient(-90deg, #330000, transparent);
+        background-image: linear-gradient(-90deg, #380000, transparent);
     }
     #about .about-contianer{
         flex-direction: row;
