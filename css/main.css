@@ -14,6 +14,7 @@ body{
     background-image: url(../img/1552.jpg);
     background-attachment: fixed;
     background-size: cover;
+	background-color: #2b0707;
 }
 /* ======= my frame work ======== */
 .container,.contianer{
