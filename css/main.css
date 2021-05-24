@@ -84,15 +84,14 @@ img{
     font-size: 2rem;
     text-transform: uppercase;
     color: white;
-    transition:.3s;	
+}
+.brand h1 span{
+    color:crimson
 }
 .brand h1:hover {
     transform: scale(1.08,1.08);
     box-shadow: 1px 3px 11px 5px #00000084;
     transition: ease .3s;
-}
-.brand h1 span{
-    color:crimson
 }
 /* ====== End my frame work ======= */
 
@@ -995,7 +994,8 @@ img{
     }
     #header .nav-list ul li a {
         font-size: 1.1rem;
-        font-weight: 500;
+		font-weight: 500;
+		border: 1px solid transparent;
     }
     #header .nav-list ul a:after{
         display: none;
