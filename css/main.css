@@ -596,7 +596,7 @@ img{
     justify-content: left;
 }
 .my_skills .progress .tichn h3{
-    color: #0b5596;
+    color: #380711;
 }
 .my_skills .container p{
     padding-top: 5px;
@@ -1052,4 +1052,24 @@ img{
     	border-left:2px solid crimson
     }
 }
+/*-----*/
+@media only screen and (min-width: 768px){
+.my_skills .progress .tichn {
+    margin: 13px 30px;
+	flex-basis: 44%;
+	}
+}
+@media only screen and (min-width: 1200px){
+.my_skills .progress {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: -2px 0px 9px 2px #0000005c;
+    padding: 16px;
+    flex-direction: row;
+	align-items: center;
+    justify-content: center;
+	}
+}
+
 /* ======== end media query for desktop ====== */
