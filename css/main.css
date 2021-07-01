@@ -484,6 +484,7 @@ img{
     background-image: linear-gradient(60deg,#7c0a21 0%,#c02040 100%);
     border-radius: 2px;
     transition: .3s ease;
+    box-shadow: 4px 6px 6px #0000006b;
 }
 #projects .all-project .project-info .web-btn:hover{
     color: red;
