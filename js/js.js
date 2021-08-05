@@ -14,7 +14,9 @@ document.addEventListener('scroll', () => {
 		header.style.backgroundImage = 'linear-gradient(181deg, #29323c 43%, #9097a0 152%)';
 		header.style.borderBottom='1px solid red' ;
 	} else {
+		header.style.backgroundImage = 'linear-gradient(181deg, rgb(41 50 60 / 34%) 43%, rgb(144 151 160 / 25%) 152%)';
 		header.style.backgroundColor = '#10345300';
+		header.style.borderBottom='none' ;
 	}
 });
 
